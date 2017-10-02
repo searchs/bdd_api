@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="16" failures="0" name="tech.dev.qa.RunCukesTest" time="0.118" errors="0" skipped="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.112-b16"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/director/devbox/frameworks/jvm/java/bdd_api/apibdd"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/director/devbox/frameworks/jvm/java/bdd_api/apibdd"/>
+    <property name="java.runtime.version" value="1.8.0_112-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/8b/g8g9bvln5jldqph1zr90mlkc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.0/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/director/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.0/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.0/libexec/lib/jansi-native/osx64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/director"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="director"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.0/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="java.ext.dirs" value="/Users/director/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.0/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: GET Request - GIT Hub User details" name="When user sends a GET request with &quot;https://api.github.com/users/ShankarGarg&quot;" time="0.02"/>
+  <testcase classname="Scenario: GET Request - GIT Hub User details" name="Then status code should be 200" time="0.001"/>
+  <testcase classname="Scenario: GET Request - GIT Hub User details" name="And response type should be &quot;json&quot;" time="0.001"/>
+  <testcase classname="Scenario: GET Request - GIT Hub User details" name="And response contains user name &quot;Shankar Garg&quot;" time="0.001"/>
+  <testcase classname="Scenario: GET Request - GIT Hub User details" name="Scenario: GET Request - GIT Hub User details" time="0.001"/>
+  <testcase classname="Scenario: POST Request - Register a user" name="When user sends a POST request to &quot;https://selfsolve.apple.com/wcResults.do&quot; with following details" time="0.009">
+    <skipped/>
+    <system-out>
+  Scenario: GET Request - GIT Hub User details                                    &amp;#27;[90m# tech/dev/qa/REST_Services.feature:6&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser sends a GET request with &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mhttps://api.github.com/users/ShankarGarg&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m &amp;#27;[90m# RestServicesSD.user_sends_a_GET_request_with(String)&amp;#27;[0m
+    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mstatus code should be &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m200&amp;#27;[0m                                                &amp;#27;[90m# RestServicesSD.status_code_should_be(int)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mresponse type should be &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mjson&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                            &amp;#27;[90m# RestServicesSD.response_type_should_be(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mresponse contains user name &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mShankar Garg&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                &amp;#27;[90m# RestServicesSD.response_contains_user_name(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: POST Request - Register a user" name="Then status code should be 200" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: POST Request - Register a user" name="And response type should be &quot;html&quot;" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: POST Request - Register a user" name="And response contains user name &quot;C2WGC14ADRJ7&quot;" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: POST Request - Register a user" name="Scenario: POST Request - Register a user" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: POST Request - Register a user" name="Scenario: POST Request - Register a user" time="0.011"/>
+  <testcase classname="Scenario: a few cukes" name="Given I have 42 cukes in my belly" time="0"/>
+  <testcase classname="Scenario: a few cukes" name="When I wait 1 hour" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: a few cukes" name="Then my belly should growl" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: a few cukes" name="Scenario: a few cukes" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: a few cukes" name="Scenario: a few cukes" time="0.008"/>
+</testsuite>
